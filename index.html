@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2gisTetTask</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="map--wrap">
+		<div id="map" class="map">
+		</div>
+		<div id="cards--list" class="cards--list"></div>
+	</div>
+	<script id="cards-template" type="text/x-handlebars-template">
+		{{#each arr}}
+			<div class="cards--item card card__{{type}}"></div>
+		{{/each}}
+	</script>
+	<script src='./js/handlebars.min.js'></script>
+	<!-- <script src='./js/data/narrow-narrow.js'></script> -->
+	<!-- <script src='./js/data/narrow-wide.js'></script> -->
+	<script src='./js/data/narrow-wide-narrow.js'></script>
+	<!-- <script src='./js/data/single-narrow-card.js'></script> -->
+	<script src='./js/index.js'></script>
+</body>
+</html>
