@@ -1,0 +1,13 @@
+{
+  "name": "2gis_testTask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tishinskiy/2gis_testTask.git",
+  "author": "tishinskiy <tishinskiy@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "server-static": "^2.0.5",
+    "static-server": "^2.2.1"
+  }
+}
